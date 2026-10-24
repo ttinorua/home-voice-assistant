@@ -1,0 +1,10 @@
+name = "home-voice-assistant-token"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Address of the deployed web app (no slash at the end)
+ALLOWED_ORIGIN = "https://home-voice.pages.dev"
+
+# Secrets (set with `npx wrangler secret put NAME`, never written here):
+#   GEMINI_API_KEY, PASSCODE
